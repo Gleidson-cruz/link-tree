@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #30033D02;
+}
+
+body {
+    font-family: 'DM Mono', monospace;
+    background-color: #f3f1f5;
 }
 
 .title {
@@ -26,7 +30,7 @@
     align-items: center;
 }
 .icon-cont {
-    width: 13.466vw;
+    width: 55.4px;
     height: auto;
     color: #30033D49
 }
@@ -43,3 +47,27 @@
     font-family: 'PoetsenOne', sans-serif;
     text-decoration: none;
 }
+
+
+/*CSS da raspadinha*/
+
+#card {
+    width: 400px;
+    height: 90px;
+    background: linear-gradient(135deg, #30033D, #5c0a5e);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+canvas {
+    width: 100%;
+    height: 100%;
+    cursor: url('../assets/img/moeda-cursor.png'), crosshair;
+}
+
+/*Fim*/
