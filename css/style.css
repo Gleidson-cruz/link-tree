@@ -4,14 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #30033D02;
 }
 
 .title {
-    font-size: 6.951vw;
+    font-size: 28.63px;
 }
 
 .subtitle {
-    font-size: 3.854vw
+    font-size: 15.87px;
 }
 
 .title, .subtitle {
@@ -28,4 +29,17 @@
     width: 13.466vw;
     height: auto;
     color: #30033D49
+}
+
+.bt-links {
+    padding: 8px;
+    margin-bottom: 21px;
+    margin-top: 12px;
+    border: 1px solid #30033D;
+    border-radius: 10px;
+    background-color: #30033D54;
+    color: #30033D;
+    font-size: 25px;
+    font-family: 'PoetsenOne', sans-serif;
+    text-decoration: none;
 }
