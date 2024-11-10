@@ -31,5 +31,7 @@
 - [ ] ![Conclusão do formulário de feedback](https://img.shields.io/badge/Formulario%20de%20feedback-Em%20fila-lightgrey?style=flat-square)
 - [ ] ![Ajustes finais do projeto](https://img.shields.io/badge/Ajustes%20finais%20do%20projeto-Em%20fila-lightgrey?style=flat-square)
 
-### Último Commit:
-[![Último Commit](https://img.shields.io/badge/último_commit-${LAST_COMMIT_DATE}-blue.svg)](https://github.com/Gleidson-cruz/link-tree/commits)
+  <h2 align="center"> Último Commit: </h2>
+![Data](https://img.shields.io/badge/08--11--2024-1c1c1c)
+
+
