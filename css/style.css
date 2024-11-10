@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/poetsenone');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 6.951vw;
+}
+
+.subtitle {
+    font-size: 3.854vw
+}
+
+.title, .subtitle {
+    font-family: 'PoetsenOne', sans-serif;
+    color: #30033D;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-cont {
+    width: 13.466vw;
+    height: auto;
+    color: #30033D49
+}
