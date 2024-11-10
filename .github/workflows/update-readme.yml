@@ -1,4 +1,4 @@
-name: Update Last Commit Date and Time in README
+name: Update Last Commit Date in README
 
 on:
   push:
@@ -14,18 +14,18 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Get the last commit date and time
-      run: echo "LAST_COMMIT_DATETIME=$(git log -1 --format='%cd' --date=format:'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+    - name: Get the last commit date
+      run: echo "LAST_COMMIT_DATE=$(git log -1 --format=%cd --date=format:'%Y-%m-%d')" >> $GITHUB_ENV
 
     - name: Update README
       run: |
-        LAST_COMMIT_DATETIME="![Último Commit](https://img.shields.io/badge/último_commit-${LAST_COMMIT_DATETIME}-blue.svg)"
-        sed -i "/Último Commit:/c\### Último Commit:\n${LAST_COMMIT_DATETIME}" README.md
+        LAST_COMMIT_DATE="![$(date '+%Y-%m-%d')](${LAST_COMMIT_DATE})"
+        sed -i "/Último Commit:/c\Último Commit: ${LAST_COMMIT_DATE}" README.md
 
     - name: Commit changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add README.md
-        git commit -m "Atualiza data e hora do último commit"
+        git commit -m "Atualiza data do último commit"
         git push
