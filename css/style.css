@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 .icon-cont {
-    width: 55.4px;
+    width: 55px;
     height: auto;
     color: #30033D49
 }
@@ -63,6 +63,9 @@ body {
     font-weight: bold;
 }
 
+.text-code {
+    font-size: 10px;
+}
 
 canvas {
     width: 100%;
