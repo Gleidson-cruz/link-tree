@@ -24,7 +24,7 @@
 - [x] ![Início](https://img.shields.io/badge/Inicio-success?style=flat-square)  ![Data](https://img.shields.io/badge/06--11--2024-1c1c1c)
 - [x] ![Construção do mockup](https://img.shields.io/badge/Mockup-success?style=flat-square) ![Data](https://img.shields.io/badge/08--11--2024-1c1c1c)
 - [ ] ![Página inicial e estilização](https://img.shields.io/badge/Pagina%20inicial%20e%20estiliza%C3%A7%C3%A3o-Em%20andamento-yellow?style=flat-square)
-- [ ] ![Conexão dos links](https://img.shields.io/badge/Conexao%20dos%20links-Em%20fila-lightgrey?style=flat-square)
+- [x] ![Conexão dos links](https://img.shields.io/badge/Conexao%20dos%20links-success-lightgrey?style=flat-square)![Data](https://img.shields.io/badge/10--11--2024-1c1c1c)
 - [ ] ![Página de feedback](https://img.shields.io/badge/Pagina%20de%20feedback-Em%20fila-lightgrey?style=flat-square)
 - [ ] ![Implementação do JavaScript](https://img.shields.io/badge/Implementa%C3%A7%C3%A3o%20do%20JavaScript-Em%20fila-lightgrey?style=flat-square)
 - [ ] ![Conclusão da dinâmica da raspadinha](https://img.shields.io/badge/Dinamica%20da%20raspadinha-Em%20fila-lightgrey?style=flat-square)
@@ -32,6 +32,6 @@
 - [ ] ![Ajustes finais do projeto](https://img.shields.io/badge/Ajustes%20finais%20do%20projeto-Em%20fila-lightgrey?style=flat-square)
 
   <h2 align="center"> Último Commit: </h2>
-![Data](https://img.shields.io/badge/08--11--2024-1c1c1c)
+![Data](https://img.shields.io/badge/10--11--2024-1c1c1c)
 
 
